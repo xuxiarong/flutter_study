@@ -33,8 +33,8 @@ class _TabsState extends State<Tabs> {
         type: BottomNavigationBarType.fixed,
         currentIndex: this._currentIndex,
         onTap: (index) {
-          setState(() {
-            this._currentIndex = index;
+          setState(() { // 改变控件状态，一定要在此方法中执行
+            this._currentIndex = index; // 改变当前选中的index，所有与之相关联的Wight都会发生改变，类似databinding
           });
         },
         items: [

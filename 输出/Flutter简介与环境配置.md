@@ -1,7 +1,3 @@
----
-typora-root-url: ../images/edit_bash.png.jpeg
----
-
 ## 										Flutter简介与环境配置
 
 ### 一、Flutter简介
@@ -65,11 +61,11 @@ typora-root-url: ../images/edit_bash.png.jpeg
 
    其中vim ~/.bash_profile时，有可能会出现以下情况
 
-   ![vim_bash.png](/../vim_bash.png)
+   ![](./images/vim_bash.png)
 
    进入vim模式后，需要按一下I键，然后在.bash_profile文件中配置以下信息
 
-   ![](/../edit_bash.png)
+   ![](./images/edit_bash.png)
 
    export PUB_HOSTED_URL=https://pub.flutter-io.cn
    export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
@@ -79,7 +75,7 @@ typora-root-url: ../images/edit_bash.png.jpeg
 
    最后按下Esc(退出编辑模式)，:wq(保存文件并退出)，保险起见，可以再输入一下source ~/.bash_profile  就OK了
 
-   ![](/../wq.png)
+   ![](./images/wq.png)
 
 3. ##### 运行 flutter doctor命令
 
@@ -91,7 +87,7 @@ typora-root-url: ../images/edit_bash.png.jpeg
 
    如果环境配置没有问题，可以看到如下现象，有问题的话，请检查前面2个步骤是否存在遗漏点
 
-   ![](/../flutter_doctor.png)
+   ![](./images/flutter_doctor.png)
 
 4. ##### 安装Android Studio
 
